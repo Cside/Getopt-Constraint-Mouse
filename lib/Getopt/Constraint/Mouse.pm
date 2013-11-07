@@ -32,7 +32,7 @@ Getopt::Constraint::Mouse - It's new $module
 
     my $options = Getopt::Constraint::Mouse->get_options(
         foo => 'Str',
-        bar => { isa => 'Int', optional => 1 },
+        bar => { isa => 'Int', required => 1 },
         baz => { isa => 'Str', default => 'Baz' }
     );
 
