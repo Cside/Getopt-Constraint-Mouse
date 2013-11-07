@@ -4,7 +4,18 @@ Getopt::Constraint::Mouse - It's new $module
 
 # SYNOPSIS
 
+    #!perl
     use Getopt::Constraint::Mouse;
+
+    my $options = Getopt::Constraint::Mouse->get_options(
+        foo => 'Str',
+        bar => { isa => 'Int', optional => 1 },
+        baz => { isa => 'Str', default => 'Baz' }
+    );
+
+    my $foo = $options->{foo};
+    my $bar = $options->{bar};
+    my $baz = $options->{baz};
 
 # DESCRIPTION
 
