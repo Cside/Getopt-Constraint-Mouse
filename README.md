@@ -15,7 +15,7 @@ Getopt::Constraint::Mouse - A command line options processor uses Mouse's type c
     my $foo = $options->{foo};
     my $bar = $options->{bar};
 
-# QUESTINS
+# QUESTIONS
 
 ## What are supported Types?
 

@@ -38,7 +38,7 @@ Getopt::Constraint::Mouse - A command line options processor uses Mouse's type c
     my $foo = $options->{foo};
     my $bar = $options->{bar};
 
-=head1 QUESTINS
+=head1 QUESTIONS
 
 =head2 What are supported Types?
 
