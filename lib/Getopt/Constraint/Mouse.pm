@@ -5,7 +5,7 @@ use warnings;
 use Mouse;
 with qw(MouseX::Getopt::GLD);
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 sub get_options {
     my ($class, @args) = @_;
