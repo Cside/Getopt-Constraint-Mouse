@@ -38,6 +38,16 @@ Getopt::Constraint::Mouse - A command line options processor uses Mouse's type c
     my $foo = $options->{foo};
     my $bar = $options->{bar};
 
+=head1 QUESTINS
+
+=head2 What are supported Types?
+
+See L<MouseX::Getopt#Supported-Type-Constraints> for details.
+
+=head2 What are supported Options?
+
+See L<MouseX::Getopt#METHODS> for details.
+
 =head1 SEE ALSO
 
 L<MouseX::Getopt>
