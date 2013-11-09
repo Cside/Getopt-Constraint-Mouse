@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "A command line options processor uses Mouse's type constraints",
    "author" : [
       "Hiroki Honda <cside.story@gmail.com>"
    ],
@@ -43,6 +43,8 @@
       },
       "runtime" : {
          "requires" : {
+            "Mouse" : "0",
+            "MouseX::Getopt" : "0",
             "perl" : "5.008005"
          }
       },

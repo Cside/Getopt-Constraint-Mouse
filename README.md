@@ -1,25 +1,23 @@
 # NAME
 
-Getopt::Constraint::Mouse - It's new $module
+Getopt::Constraint::Mouse - A command line options processor uses Mouse's type constraints
 
 # SYNOPSIS
 
-    #!perl
+    # in your script
     use Getopt::Constraint::Mouse;
 
     my $options = Getopt::Constraint::Mouse->get_options(
-        foo => 'Str',
-        bar => { isa => 'Int', required => 1 },
-        baz => { isa => 'Str', default => 'Baz' }
+        foo => +{ isa => 'Str', required => 1     },
+        bar => +{ isa => 'Str', default  => 'Bar' },
     );
 
     my $foo = $options->{foo};
     my $bar = $options->{bar};
-    my $baz = $options->{baz};
 
-# DESCRIPTION
+# SEE ALSO
 
-Getopt::Constraint::Mouse is ...
+[MouseX::Getopt](http://search.cpan.org/perldoc?MouseX::Getopt)
 
 # LICENSE
 
