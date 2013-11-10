@@ -41,17 +41,20 @@ use it
 
 # QUESTIONS
 
-## What are supported Types?
+## What types are supported?
 
 See [MouseX::Getopt\#Supported-Type-Constraints](http://search.cpan.org/perldoc?MouseX::Getopt\#Supported-Type-Constraints) for details.
 
-## What are supported Options?
+## What options are supported?
 
 See [MouseX::Getopt\#METHODS](http://search.cpan.org/perldoc?MouseX::Getopt\#METHODS) for details.
 
 # SEE ALSO
 
-[MouseX::Getopt](http://search.cpan.org/perldoc?MouseX::Getopt)
+- [MouseX::Getopt](http://search.cpan.org/perldoc?MouseX::Getopt)
+- [Smart::Options::Declare](http://search.cpan.org/perldoc?Smart::Options::Declare)
+- [Docopt](http://search.cpan.org/perldoc?Docopt)
+- [Getopt::Long::Descriptive](http://search.cpan.org/perldoc?Getopt::Long::Descriptive)
 
 # LICENSE
 

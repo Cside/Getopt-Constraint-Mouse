@@ -64,17 +64,27 @@ use it
 
 =head1 QUESTIONS
 
-=head2 What are supported Types?
+=head2 What types are supported?
 
 See L<MouseX::Getopt#Supported-Type-Constraints> for details.
 
-=head2 What are supported Options?
+=head2 What options are supported?
 
 See L<MouseX::Getopt#METHODS> for details.
 
 =head1 SEE ALSO
 
-L<MouseX::Getopt>
+=over
+
+=item L<MouseX::Getopt>
+
+=item L<Smart::Options::Declare>
+
+=item L<Docopt>
+
+=item L<Getopt::Long::Descriptive>
+
+=back
 
 =head1 LICENSE
 
