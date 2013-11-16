@@ -52,9 +52,10 @@ See [MouseX::Getopt#METHODS](https://metacpan.org/pod/MouseX::Getopt#METHODS) fo
 # SEE ALSO
 
 - [MouseX::Getopt](https://metacpan.org/pod/MouseX::Getopt)
-- [Smart::Options::Declare](https://metacpan.org/pod/Smart::Options::Declare)
+- [Smart::Options](https://metacpan.org/pod/Smart::Options)
 - [Docopt](https://metacpan.org/pod/Docopt)
 - [Getopt::Long::Descriptive](https://metacpan.org/pod/Getopt::Long::Descriptive)
+- [Getopt::Compact::WithCmd](https://metacpan.org/pod/Getopt::Compact::WithCmd)
 
 # LICENSE
 

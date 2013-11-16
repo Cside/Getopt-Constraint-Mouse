@@ -5,12 +5,16 @@ use warnings;
 use Mouse;
 with qw(MouseX::Getopt::GLD);
 
-our $VERSION = "0.04";
+our $VERSION = "0.05";
 
 sub get_options {
     my ($class, @args) = @_;
     while (my ($key, $val) = splice @args, 0, 2) {
-        next if ref $val ne 'HASH';
+        for my $alias (qw(desc description doc )) {
+            if (exists $val->{$alias}) {
+                $val->{documentation} = delete $val->{$alias};
+            }
+        }
         has $key => ( is => 'ro', %$val);
     }
     $class->new_with_options()
@@ -78,11 +82,13 @@ See L<MouseX::Getopt#METHODS> for details.
 
 =item L<MouseX::Getopt>
 
-=item L<Smart::Options::Declare>
+=item L<Smart::Options>
 
 =item L<Docopt>
 
 =item L<Getopt::Long::Descriptive>
+
+=item L<Getopt::Compact::WithCmd>
 
 =back
 
