@@ -23,8 +23,8 @@ my %args = (
         'Module::Build' => 0.38,
     },
 
-    name            => 'Getopt-Constraint-Mouse',
-    module_name     => 'Getopt::Constraint::Mouse',
+    name            => 'Getopt-TypeConstraint-Mouse',
+    module_name     => 'Getopt::TypeConstraint::Mouse',
     allow_pureperl => 0,
 
     script_files => [glob('script/*'), glob('bin/*')],

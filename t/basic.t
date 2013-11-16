@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 use Test::More;
-use Getopt::Constraint::Mouse;
+use Getopt::TypeConstraint::Mouse;
 
 local @ARGV = qw(--in=foo --out=bar);
 {
@@ -13,7 +13,7 @@ local @ARGV = qw(--in=foo --out=bar);
 }
 
 my $app = MyApp->new_with_options;
-my $opts = Getopt::Constraint::Mouse->get_options(
+my $opts = Getopt::TypeConstraint::Mouse->get_options(
     out => +{ isa => 'Str', required => 1 },
     in  => +{ isa => 'Str', required => 1 },
 );

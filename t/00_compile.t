@@ -2,7 +2,7 @@ use strict;
 use Test::More;
 
 use_ok $_ for qw(
-    Getopt::Constraint::Mouse
+    Getopt::TypeConstraint::Mouse
 );
 
 done_testing;

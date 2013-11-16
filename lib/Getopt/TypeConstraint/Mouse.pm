@@ -1,11 +1,11 @@
-package Getopt::Constraint::Mouse;
+package Getopt::TypeConstraint::Mouse;
 use 5.008005;
 use strict;
 use warnings;
 use Mouse;
 with qw(MouseX::Getopt::GLD);
 
-our $VERSION = "0.03";
+our $VERSION = "0.04";
 
 sub get_options {
     my ($class, @args) = @_;
@@ -23,16 +23,16 @@ __END__
 
 =head1 NAME
 
-Getopt::Constraint::Mouse - A command line options processor uses Mouse's type constraints
+Getopt::TypeConstraint::Mouse - A command line options processor uses Mouse's type constraints
 
 =head1 SYNOPSIS
 
 in your script
 
     #!perl
-    use Getopt::Constraint::Mouse;
+    use Getopt::TypeConstraint::Mouse;
 
-    my $options = Getopt::Constraint::Mouse->get_options(
+    my $options = Getopt::TypeConstraint::Mouse->get_options(
         foo => +{
             isa           => 'Str',
             required      => 1,
@@ -66,7 +66,7 @@ use it
 
 =head2 What types are supported?
 
-See L<MouseX::Getopt#Supported-Type-Constraints> for details.
+See L<MouseX::Getopt#Supported-Type-TypeConstraints> for details.
 
 =head2 What options are supported?
 

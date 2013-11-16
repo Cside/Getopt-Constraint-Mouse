@@ -1,15 +1,15 @@
 # NAME
 
-Getopt::Constraint::Mouse - A command line options processor uses Mouse's type constraints
+Getopt::TypeConstraint::Mouse - A command line options processor uses Mouse's type constraints
 
 # SYNOPSIS
 
 in your script
 
     #!perl
-    use Getopt::Constraint::Mouse;
+    use Getopt::TypeConstraint::Mouse;
 
-    my $options = Getopt::Constraint::Mouse->get_options(
+    my $options = Getopt::TypeConstraint::Mouse->get_options(
         foo => +{
             isa           => 'Str',
             required      => 1,
@@ -43,18 +43,18 @@ use it
 
 ## What types are supported?
 
-See [MouseX::Getopt\#Supported-Type-Constraints](http://search.cpan.org/perldoc?MouseX::Getopt\#Supported-Type-Constraints) for details.
+See [MouseX::Getopt#Supported-Type-TypeConstraints](https://metacpan.org/pod/MouseX::Getopt#Supported-Type-TypeConstraints) for details.
 
 ## What options are supported?
 
-See [MouseX::Getopt\#METHODS](http://search.cpan.org/perldoc?MouseX::Getopt\#METHODS) for details.
+See [MouseX::Getopt#METHODS](https://metacpan.org/pod/MouseX::Getopt#METHODS) for details.
 
 # SEE ALSO
 
-- [MouseX::Getopt](http://search.cpan.org/perldoc?MouseX::Getopt)
-- [Smart::Options::Declare](http://search.cpan.org/perldoc?Smart::Options::Declare)
-- [Docopt](http://search.cpan.org/perldoc?Docopt)
-- [Getopt::Long::Descriptive](http://search.cpan.org/perldoc?Getopt::Long::Descriptive)
+- [MouseX::Getopt](https://metacpan.org/pod/MouseX::Getopt)
+- [Smart::Options::Declare](https://metacpan.org/pod/Smart::Options::Declare)
+- [Docopt](https://metacpan.org/pod/Docopt)
+- [Getopt::Long::Descriptive](https://metacpan.org/pod/Getopt::Long::Descriptive)
 
 # LICENSE
 
